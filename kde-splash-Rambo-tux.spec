@@ -18,10 +18,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"Rambo-tux" KDE splash screen.
+Rambo Tux in action! Better start running if you are using Windows :)
 
 %description -l pl
-Ekran startowy KDE "Rambo-tux".
+Rambo Tux w akcji! Je¿eli u¿ywasz Windows to lepiej zacznij ju¿ uciekaæ :)
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
