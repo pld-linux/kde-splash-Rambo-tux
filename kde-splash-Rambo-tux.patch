@@ -1,0 +1,15 @@
+diff -ur aranio.orig/Theme.rc aranio/Theme.rc
+--- aranio.orig/Theme.rc	2004-05-14 23:09:36.000000000 +0200
++++ aranio/Theme.rc	2004-09-01 09:31:27.898002440 +0200
+@@ -1,8 +1,8 @@
+ #Aranio
+ #
+-[KSplash Theme: aranio]
+-Name = aranio KDE Splash Theme
+-Description = aranio KDE KSplash theme.
++[KSplash Theme: Rambo-tux]
++Name = Rambo-tux, aranio KDE Splash Theme
++Description = Rambo-tux, aranio KDE KSplash theme.
+ Author = juan antonio castillo; 
+ icons by Carlitus- The noia icons 
+ 
