@@ -2,7 +2,7 @@
 %define		_splash		Rambo-tux
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	3
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Rambo Tux in action! Better start running if you are using Windows :)
 
-%description -l pl
-Rambo Tux w akcji! Jeøeli uøywasz Windows to lepiej zacznij juø uciekaÊ :)
+%description -l pl.UTF-8
+Rambo Tux w akcji! Je≈ºeli u≈ºywasz Windows to lepiej zacznij ju≈º uciekaƒá :)
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
