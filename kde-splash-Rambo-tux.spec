@@ -26,7 +26,7 @@ Rambo Tux w akcji! Jeżeli używasz Windows to lepiej zacznij już uciekać :)
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
-%patch0 -p0
+%patch -P0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT
